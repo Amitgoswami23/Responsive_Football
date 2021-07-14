@@ -225,7 +225,9 @@ body{
 /*mobile devices*/
 
 @media only screen and (max-width:688px){
-    
+    .container{
+        width: 100%;
+    }
 
     /*top banner section*/
     .top-banner{
@@ -242,7 +244,7 @@ body{
     }
 
     .left-banner h1{
-        font-size: 45px;
+        font-size: 40px;
         color: #FFFFFF;
         font-weight: bold;
         line-height: 80px;
