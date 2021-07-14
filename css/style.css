@@ -215,9 +215,7 @@ body{
 /*mobile devices*/
 
 @media only screen and (max-width:688px){
-    .container{
-        width: 100%;
-    }
+    
 
     /*top banner section*/
     .top-banner{
@@ -288,19 +286,17 @@ body{
         color: #676767;
         
     }
-    
-
    /*end team section*/
+
 
    /*contact section*/
    .contact-form{
-       margin-left: 35px;
+       margin-left: 20px;
    }
-
    /*end contact section*/
 
 
-   /*footer image*/
+   /*footer section*/
    .footer-image img{
        height: 50px;
        width: 170px;
