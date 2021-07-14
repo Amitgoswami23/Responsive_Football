@@ -86,8 +86,8 @@ body{
 .photo-album{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    margin-left: 12rem;
-    margin-top: 4rem;
+    margin-left: 180px;
+    margin-top: 70px;
     gap: 50px;
 }
 
@@ -106,6 +106,33 @@ body{
 }
 /*end Players album*/
 
+/*teams*/
+.teams-flag{
+    margin-top: 70px;
+}
+
+.teams-header h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #676767;
+}
+
+.qualified-teams{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    
+}
+
+.qualified-teams,.flag-image img{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 20px;
+
+} 
+
+/*end teams*/
 
 /*contact form*/
 .contact{
@@ -123,7 +150,8 @@ body{
 .contact-form h2{
     text-align: center;
     font-size: 2rem;
-    padding: 20px; 
+    padding: 20px;
+    color:#676767;   
 }
 
 .contact-form input, textarea{
@@ -148,3 +176,37 @@ body{
 }
 
 /*end contact form*/
+
+
+/*footer section*/
+
+.footer{
+    margin-bottom: 63px;
+}
+
+.footer-image img{
+    height: 125px;
+    width: 490px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 158px;
+    
+}
+.social-image{
+    text-align: center;
+    
+}
+
+.social-image i{
+    margin-left: 10px;
+    border: 1px solid #d6caca;
+    background-color: #bebaba;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.copywrite{
+    margin-top: 20px;
+}
+
+/*end footer section*/
