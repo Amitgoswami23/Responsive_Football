@@ -104,6 +104,16 @@ body{
     height: 200px;
     
 }
+
+.photo-details h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo-details p{
+    color: #9a9a9a;
+    font-weight: 400;
+}
 /*end Players album*/
 
 /*teams*/
