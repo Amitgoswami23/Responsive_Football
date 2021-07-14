@@ -225,9 +225,7 @@ body{
 /*mobile devices*/
 
 @media only screen and (max-width:688px){
-    .container{
-        width: 100%;
-    }
+    
 
     /*top banner section*/
     .top-banner{
