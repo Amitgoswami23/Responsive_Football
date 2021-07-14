@@ -249,14 +249,14 @@ body{
     }
 
     .right-banner{
-        margin-top:20px;
+        margin-top:10px;
         margin-bottom: 61px;
         width: 100%;
     }
 
     .right-banner img{
         height: 238px;
-        width: 356px;
+        width: 300px;
         overflow: hidden;
     }
     /* Players album */
@@ -313,6 +313,50 @@ body{
        margin-left: 100px;
 
    }
+}
+
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+     /*top banner section*/
+     .top-banner{
+        width: 1000px;
+        height: 695px;
+    }
+
+    .left-banner h1{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+       
+    }
+    .right-banner img{
+        margin-top: 40px;
+        width: 490px;
+    }
+
+    /* Players album */
+    .photo-album{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 175px;
+    }
+
+    .photo-frame{
+        width: 280px;
+        height: 400px;
+        box-shadow: 0 0 5px 0.7rem #ECF0F1;
+        padding: 1rem;
+        overflow: hidden;   
+        
+    }
+   /* End Players album */
+
+    /*footer section*/
+    .footer-image img{
+        height: 50px;
+        width: 220px;
+        margin-left: 258px;
+    }
 }
 
 /* end media queary */
