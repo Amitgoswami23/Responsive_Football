@@ -230,7 +230,7 @@ body{
     /*top banner section*/
     .top-banner{
         flex-direction: column;
-        width: 100%;
+        width: 420px;
         height: 695px;
     }
 
