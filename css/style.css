@@ -210,3 +210,103 @@ body{
 }
 
 /*end footer section*/
+
+/*media queary code start*/
+/*mobile devices*/
+
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+
+    /*top banner section*/
+    .top-banner{
+        flex-direction: column;
+        width: 100%;
+        height: 695px;
+    }
+
+    .left-banner{
+        margin-top: 20px;
+        margin-left: 16px;
+        margin-bottom: 20px;
+       
+    }
+
+    .left-banner h1{
+        font-size: 45px;
+        color: #FFFFFF;
+        font-weight: bold;
+        line-height: 80px;
+    }
+
+    .right-banner{
+        margin-top:20px;
+        margin-bottom: 61px;
+        width: 100%;
+    }
+
+    .right-banner img{
+        height: 238px;
+        width: 356px;
+        overflow: hidden;
+    }
+    /* Players album */
+    .photo-album{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px; 
+    }
+
+    .photo-frame{
+        width: 280px;
+        height: 400px;
+        box-shadow: 0 0 5px 0.7rem #ECF0F1;
+        padding: 1rem;
+        overflow: hidden;   
+        
+    }
+    
+
+   /* End Players album */
+
+   /*teams section*/
+   .qualified-teams{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5px;
+   }
+
+   .qualified-teams,.flag-image img{
+        width: 60%;
+        margin-left: 40px;
+       
+    }
+    
+    .teams-header h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 3rem;
+        color: #676767;
+        
+    }
+    
+
+   /*end team section*/
+
+   /*contact section*/
+   .contact-form{
+       margin-left: 35px;
+   }
+
+   /*end contact section*/
+
+
+   /*footer image*/
+   .footer-image img{
+       height: 50px;
+       width: 170px;
+       margin-left: 100px;
+
+   }
+}
+
+/* end media queary */
